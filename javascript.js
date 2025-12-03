@@ -12,7 +12,7 @@ function feedback() {
     let q4=document.getElementById('house').value.trim().toLowerCase();
     if(q1==="yes"&&q2==="yes"&&q3==="yes"&&q4==="yes") {
         const p = document.createElement("p");
-        p.textContent = "Thank you pookie bear :3 UwU";
+        p.textContent = "Thank you :3 UwU";
         feedback.appendChild(p);
     }
     else {
